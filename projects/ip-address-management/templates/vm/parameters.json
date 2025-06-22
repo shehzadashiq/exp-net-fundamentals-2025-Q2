@@ -9,7 +9,7 @@
             "value": "azureuser"
         },
         "adminPassword": {
-            "value": "Password123!"
+            "value": "add-your-secure-password-here"
         },
         "vnetAddressPrefix": {
             "value": "10.0.0.0/16"
