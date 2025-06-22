@@ -1,6 +1,6 @@
 # Deploying NetworkStack with Cloudformation
 
-As I had already
+As I had already created a VPC with the required IP range for the bootcamp, I created a separate VPC for this exercise.
 
 ## Check Your AWS Account
 
