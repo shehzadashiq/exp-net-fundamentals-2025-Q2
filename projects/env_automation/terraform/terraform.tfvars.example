@@ -1,0 +1,9 @@
+# Example terraform.tfvars file
+# Copy this file to terraform.tfvars and update with your values
+
+# Your current IP address for SSH access
+my_ip = "x.x.x.x"
+
+# Key pair names
+windows_key_name = "network-bootcamp-key-pem"
+linux_key_name = "network-bootcamp-key-ppk"
