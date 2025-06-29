@@ -52,3 +52,4 @@ Disabled IP lookup on the router using the command `no ip dns lookup`
 - [How To Configure DHCP Server On A Cisco Router](https://www.firewall.cx/cisco/cisco-routers/cisco-router-dhcp-config.html)
 - [Configuring the Cisco IOS DHCP Server](https://www.cisco.com/en/US/docs/ios/12_4t/ip_addr/configuration/guide/htdhcpsv.html#wp1084769)
 - [Configure SSH on Routers and Switches](https://www.cisco.com/c/en/us/support/docs/security-vpn/secure-shell-ssh/4145-ssh.html)
+- [How to configure DHCP server in Packet Tracer](https://computernetworking747640215.wordpress.com/2018/07/05/how-to-configure-dhcp-server-in-packet-tracer/)
