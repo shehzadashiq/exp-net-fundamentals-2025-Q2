@@ -1,5 +1,15 @@
 # Packet Tracer Exercise
 
+- [Packet Tracer Exercise](#packet-tracer-exercise)
+  - [Network Setup](#network-setup)
+  - [IP Address Configuration](#ip-address-configuration)
+  - [DHCP Configuration on DNS Server](#dhcp-configuration-on-dns-server)
+  - [Laptop receiving IP Address from DHCP Server](#laptop-receiving-ip-address-from-dhcp-server)
+  - [Laptop receiving IP Address from Router](#laptop-receiving-ip-address-from-router)
+  - [Pings to all devices from Laptop](#pings-to-all-devices-from-laptop)
+  - [Troubleshooting](#troubleshooting)
+  - [References](#references)
+
 ## Network Setup
 
 ![Image](https://github.com/user-attachments/assets/1a3ec5b8-93cb-4298-95ef-4f19cb0800a4)
@@ -36,3 +46,9 @@ Once the DHCP server has been turned off on the DHCP server when we renew the IP
 I had initially configured the DHCP server solely on the Server. I however wanted to use the router instead so tested this by shutting down the router interface to the switch.
 
 Disabled IP lookup on the router using the command `no ip dns lookup`
+
+## References
+
+- [How To Configure DHCP Server On A Cisco Router](https://www.firewall.cx/cisco/cisco-routers/cisco-router-dhcp-config.html)
+- [Configuring the Cisco IOS DHCP Server](https://www.cisco.com/en/US/docs/ios/12_4t/ip_addr/configuration/guide/htdhcpsv.html#wp1084769)
+- [Configure SSH on Routers and Switches](https://www.cisco.com/c/en/us/support/docs/security-vpn/secure-shell-ssh/4145-ssh.html)
