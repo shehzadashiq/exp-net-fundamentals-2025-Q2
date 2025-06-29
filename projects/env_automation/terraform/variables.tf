@@ -33,8 +33,21 @@ variable "availability_zone" {
 # EC2 Variables
 ########################
 
-variable "key_name" {
+variable "windows_key_name" {
   description = "Name of an existing EC2 Key Pair to enable RDP access to the instance."
   type        = string
   default     = "network-bootcamp-key-pem"
+}
+
+variable "linux_key_name" {
+  description = "Name of an existing EC2 Key Pair to enable SSH access to the instance."
+  type        = string
+  default     = "network-bootcamp-key-ppk"
+}
+
+variable "my_ip" {
+  description = "Your current IP address for SSH access (format: x.x.x.x/32)"
+  type        = string
+  sensitive   = true
+  # No default - should be provided in terraform.tfvars or as an environment variable
 }

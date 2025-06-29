@@ -41,7 +41,7 @@ resource "aws_instance" "windows2025" {
   associate_public_ip_address = true
 
   # Include key pair only when provided
-  key_name = var.key_name != "" ? var.key_name : null
+  key_name = var.windows_key_name != "" ? var.windows_key_name : null
 
   tags = {
     Name = "Windows2025Instance"
