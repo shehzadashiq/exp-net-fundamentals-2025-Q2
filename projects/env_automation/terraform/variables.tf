@@ -29,3 +29,12 @@ variable "availability_zone" {
 }
 
 
+########################
+# EC2 Variables
+########################
+
+variable "key_name" {
+  description = "Name of an existing EC2 Key Pair to enable RDP access to the instance."
+  type        = string
+  default     = "network-bootcamp-key-pem"
+}
