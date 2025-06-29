@@ -48,16 +48,3 @@ resource "aws_instance" "windows2025" {
   }
 }
 
-########################
-# Outputs
-########################
-
-output "windows2025_instance_id" {
-  description = "ID of the Windows Server 2025 instance"
-  value       = aws_instance.windows2025.id
-}
-
-output "windows2025_public_ip" {
-  description = "Public IP address of the Windows Server 2025 instance"
-  value       = aws_instance.windows2025.public_ip
-}
